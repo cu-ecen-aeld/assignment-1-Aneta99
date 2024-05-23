@@ -5,6 +5,7 @@ on:
             - '*'
         branches:
             - '*'
+runs-on: self-hosted
 jobs:
     unit-test:
         container: cuaesd/aesd-autotest:unit-test
